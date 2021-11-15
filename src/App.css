@@ -1,0 +1,74 @@
+body {
+  display: grid;
+  place-items: center;
+}
+
+h2 {
+  text-align: center;
+  color: white;
+}
+.App {
+  border: 2px solid;
+  width: 80vw;
+  margin-top: 2vh;
+  padding: 10px;
+  background-color: rgb(15, 15, 88);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.bio {
+  width: 97%;
+  height: 100px;
+}
+
+.container {
+  display: flex;
+  justify-content: left;
+  /* border: 2px solid; */
+}
+
+img {
+  width: 150px;
+  height: 150px;
+}
+button {
+  margin: 15px;
+  font-size: 1.2em;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: darkblue;
+  color: white;
+  cursor: pointer;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+form{
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px dotted rgb(14, 14, 80);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+input,.container {
+  background-color: rgba(0, 0, 138, 0.781);
+  border-radius: 10px;
+  border: none;
+  color: white;
+  padding: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+label,h3,span{
+  padding: 5px;
+  color: palevioletred;
+}
